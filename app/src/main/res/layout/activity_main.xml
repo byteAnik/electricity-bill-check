@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="কত ইউনিট কারেন্ট ইউজ করেছেন?"
+        android:textSize="20dp"
+        android:background="#D8FFA500"
+        />
+    <EditText
+        android:id="@+id/edNumber"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:hint="put a number"
+        android:textSize="30sp"
+        android:inputType="numberDecimal"
+        />
+    <Button
+        android:id="@+id/buttonCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total current bill="
+        android:textSize="20dp"
+        />
+
+
+
+</LinearLayout>
